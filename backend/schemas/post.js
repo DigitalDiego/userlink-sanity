@@ -1,0 +1,27 @@
+export default {
+    name:"post",
+    title:"Post",
+    type:"document",
+    fields:[
+        {
+            name:"text",
+            title:"Text",
+            type:"text"
+        },
+        {
+            name:"userId",
+            title:"UserId",
+            type:"string"
+        },
+        {
+            name:"userName",
+            title:"UserName",
+            type:"string"
+        },
+        {
+            name:"postedBy",
+            title:"PostedBy",
+            type:"postedBy"
+        }
+    ]
+}
